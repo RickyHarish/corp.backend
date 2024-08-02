@@ -6,7 +6,7 @@ import productModel from '../models/productModel.js'
 const username = encodeURIComponent("Harish");
 const password = encodeURIComponent("abcd1234");
 
-const URL = `mongodb+srv://${username}:${password}@cluster0.20bemwo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0` || process.env.MONGO_URI
+const URL = `mongodb+srv://${username}:${password}@artists.tgfc6jz.mongodb.net/?retryWrites=true&w=majority&appName=Artists` || process.env.MONGO_URI
 
 const connectDB = async()=>{
     try{
